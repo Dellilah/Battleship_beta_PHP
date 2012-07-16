@@ -9,7 +9,11 @@
 	//załączenie pliku nagłówkowego, który z kolei załącza biblioteki
 	include 'cms.h.php';
 	
-	$strona['zawartosc'] = '404';
+	//wielkość plansz
+	$strona['x'] = 8;
+	
+	
+	$strona['zawartosc'] = 'plansze';
 	
 	wyswietl_strone($sciezki, $szablony, $strona);
 ?>
