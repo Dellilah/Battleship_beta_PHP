@@ -10,11 +10,16 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <LINK REL=StyleSheet HREF="../../public_html/fx/css/style.css"  TYPE="text/css">
+        <LINK REL=StyleSheet HREF="../public_html/fx/css/style.css"  TYPE="text/css">
         <title>Gra w statki</title>
     </head>
     <body>
         <header></header>
+        <div id="banner" role="banner">
+            <a href="plansze.php">
+                <img src="../public_html/fx/bitmapy/logo.png">
+            </a>
+        </div>
         <div id="menu">
 		</div>
         <div id="content">

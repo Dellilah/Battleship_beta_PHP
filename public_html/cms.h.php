@@ -14,4 +14,5 @@
     // załączenie bibliotek:
     include dirname(dirname(__FILE__)) . '/lib/inc/konfiguracja.inc.php';
 	include dirname(dirname(__FILE__)) . '/lib/inc/szablony.inc.php';
+	include dirname(dirname(__FILE__)) . '/lib/inc/plansze.inc.php';
 ?>

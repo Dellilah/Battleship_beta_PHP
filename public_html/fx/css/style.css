@@ -1,3 +1,23 @@
+#content{
+	overflow: auto;
+	height: auto;
+	/*margin-top: 40px;*/
+	margin-bottom: 100px;
+	background-color: #EBECEC;
+	padding-top: 60px;	
+}
+
+#banner {
+position: relative;
+left: 200px;
+bottom: -25px;
+width: 250px;
+}
+form {
+	position: absolute;
+	left: 565px;
+	top: 105px;
+}
 div.fire{
 	float: left;
 	margin-left: 50px;
@@ -6,14 +26,46 @@ div.your{
 	float: right;
 	margin-right: 50px;
 }
+div h2{
+	width: 165px;
+	margin: auto;
+
+}
 
 table td{
-	width: 60px;
-	height: 60px;
-	background-image: url('water.jpg');
+	width: 50px;
+	height: 50px;
+	border-style: none;
+	
+}
+
+.puste{
+	background-image: url('../bitmapy/puste.jpg');
+}
+.trafiony{
+	background-image: url('../bitmapy/trafiony.jpg');
+}
+.pudlo{
+	background-image: url('../bitmapy/pudlo.jpg');
+}
+.statek{
+	background-image: url('../bitmapy/statek.jpg');
 }
 
 table th{
-	padding-bottom: 15px;
-	padding-right: 15px;
+	
+	padding: 15px;
+}
+
+.statystyki{
+	width: 250px;
+	position: absolute;
+	top: 205px;
+	left: 550px;
+	text-align: center;
+}
+h1 {
+position: relative;
+left: 530px;
+width: 700px;
 }
