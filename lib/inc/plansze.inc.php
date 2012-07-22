@@ -27,6 +27,44 @@
 	}
 	
 	/**
+	* Ustawianie na sztywno statków na podanej planszy
+	*
+	* @param array $plansza Plansza na której ustawiamy statki
+	*
+	*/
+	
+	function ustaw_statki(&$plansza){
+		//czteromasztowiec
+		$plansza[8]=1;
+		$plansza[16]=1;
+		$plansza[24]=1;
+		$plansza[32]=1;
+		//trójmasztowce dwa
+		$plansza[2]=1;
+		$plansza[3]=1;
+		$plansza[4]=1;
+		
+		$plansza[47]=1;
+		$plansza[55]=1;
+		$plansza[63]=1;
+		//dwumasztowce trzy
+		$plansza[41]=1;
+		$plansza[42]=1;
+		
+		$plansza[53]=1;
+		$plansza[61]=1;
+		
+		$plansza[18]=1;
+		$plansza[19]=1;
+		
+		//jednomasztowce
+		$plansza[13]=1;
+		$plansza[36]=1;
+		$plansza[57]=1;
+		$plansza[31]=1;
+	}
+	
+	/**
 	* Oddanie na strza³u na planszê
 	*
 	*@param array $plansza Plansza na któr¹ oddawany jest strza³

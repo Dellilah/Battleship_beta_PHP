@@ -85,63 +85,8 @@
 		pusta_plansza(&$strona['plansza_gracza'], $strona['x']);
 		
 		//ustawiamy statki gracza - "na sztywno"
-		//czteromasztowiec
-		$strona['plansza_gracza'][8]=1;
-		$strona['plansza_gracza'][16]=1;
-		$strona['plansza_gracza'][24]=1;
-		$strona['plansza_gracza'][32]=1;
-		//trójmasztowce dwa
-		$strona['plansza_gracza'][2]=1;
-		$strona['plansza_gracza'][3]=1;
-		$strona['plansza_gracza'][4]=1;
-		
-		$strona['plansza_gracza'][47]=1;
-		$strona['plansza_gracza'][55]=1;
-		$strona['plansza_gracza'][63]=1;
-		//dwumasztowce trzy
-		$strona['plansza_gracza'][41]=1;
-		$strona['plansza_gracza'][42]=1;
-		
-		$strona['plansza_gracza'][53]=1;
-		$strona['plansza_gracza'][61]=1;
-		
-		$strona['plansza_gracza'][18]=1;
-		$strona['plansza_gracza'][19]=1;
-		
-		//jednomasztowce
-		$strona['plansza_gracza'][13]=1;
-		$strona['plansza_gracza'][36]=1;
-		$strona['plansza_gracza'][57]=1;
-		$strona['plansza_gracza'][31]=1;
-		
-		//ustawiamy statki komputera - "na sztywno"
-		//czteromasztowiec
-		$strona['plansza_komputera'][8]=1;
-		$strona['plansza_komputera'][16]=1;
-		$strona['plansza_komputera'][24]=1;
-		$strona['plansza_komputera'][32]=1;
-		//trójmasztowce dwa
-		$strona['plansza_komputera'][2]=1;
-		$strona['plansza_komputera'][3]=1;
-		$strona['plansza_komputera'][4]=1;
-		$strona['plansza_komputera'][47]=1;
-		$strona['plansza_komputera'][55]=1;
-		$strona['plansza_komputera'][63]=1;
-		//dwumasztowce trzy
-		$strona['plansza_komputera'][41]=1;
-		$strona['plansza_komputera'][42]=1;
-		
-		$strona['plansza_komputera'][53]=1;
-		$strona['plansza_komputera'][61]=1;
-		
-		$strona['plansza_komputera'][18]=1;
-		$strona['plansza_komputera'][19]=1;
-		
-		//jednomasztowce
-		$strona['plansza_komputera'][13]=1;
-		$strona['plansza_komputera'][36]=1;
-		$strona['plansza_komputera'][57]=1;
-		$strona['plansza_komputera'][31]=1;
+		ustaw_statki(&$strona['plansza_gracza']);
+		ustaw_statki(&$strona['plansza_komputera']);
 		
 	}
 	
